@@ -19,9 +19,11 @@ footer {
 .header {
     /* Style for "Background" */
     height: 100px;
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
     border: 1px solid #ececec;
     background-color: #ffffff;
+    display: flex;
 }
 
 .button {
@@ -51,11 +53,25 @@ footer {
 .logo {
     display: flex;
     align-items: center;
+    /* Style for "BRAND" */
+color: #222222;
+font-size: 27px;
+font-weight: 300;
+text-transform: uppercase;
+/* Text style for "BRAN" */
+font-weight: 300;
+letter-spacing: 0.68px;
+    text-decoration: none;
 }
 
 .header-form {
+    margin-left: 40px;
     display: flex;
     align-items: center;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
 }
 
 .header-right {
@@ -78,4 +94,222 @@ footer {
     list-style-type: none;
     display: flex;
     justify-content: center;
+}
+
+.menu-link:hover {
+    color: #f16d7f;
+}
+
+.promo {
+    background-color: #e8e8e8;
+    height: 613px;
+}
+
+.navigation {
+    background-color: #ffffff;
+}
+
+.promo-content {
+    background-image: url(img/promo.jpg);
+    height: 100%;
+    background-position: 0px -52px;
+}
+
+.promo-h2 {
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "T, HE BRAN" */
+    font-size: 60px;
+    letter-spacing: 1.5px;
+        line-height: 40px;
+    margin-bottom: 19px;
+}
+
+.pink {
+    color: #f16d7f;
+}
+
+.promo-h3 {
+    /* Style for "THE BRAND" */
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "OF LUXERIO" */
+    letter-spacing: 1px;
+        line-height: 32px;
+
+}
+
+.promo-text {
+    margin-top: 224px;
+    float: left;
+    border-left: 12px solid #f16d7f;
+    padding-left: 19px;
+}
+
+.categories {
+    padding: 100px 0px;
+}
+
+.category {
+    width: 560px;
+}
+
+.big-category {
+    height: 542px;
+}
+
+.small-category {
+    background-color: #dadad2;
+    height: 261px;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.featured {
+    /* Style for "Fetured It" */
+color: #222222;
+font-size: 30px;
+font-weight: 700;
+/* Text style for "Fetured It" */
+letter-spacing: 0.75px;
+}
+
+.featured-text {
+    /* Style for "Shop for i" */
+color: #9f9f9f;
+font-size: 14px;
+font-weight: 400;
+/* Text style for "S, hop for" */
+letter-spacing: 0.35px;
+}
+
+.centration {
+    text-align: center;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.product-item {
+    height: 364px;
+    width: 260px;
+    text-decoration: none;
+    padding-bottom: 40px;
+    
+}
+
+.product-image {
+    height: 280px;
+    width: 100%;
+}
+
+.view-all {
+    padding: 20px;
+}
+
+.product-name {
+/* Style for "Mango  Peo" */
+color: #222222;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+    padding: 15px;
+
+}
+
+.product-price {
+    /* Style for "$52.00" */
+color: #f16d7f;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+    padding-left: 15px;
+}
+
+
+.category-container {
+        display: flex;
+    justify-content: space-between;
+        flex-direction: column;
+    flex-wrap: wrap;
+    height: 820px;
+}
+
+.label {
+    margin-top: 26px;
+    float: left;
+    padding: 20px 15px;
+    background-color: #ffffff;
+}
+
+.label-line1 {
+    /* Style for "hOT dEAL F" */
+color: #222222;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "hOT dEAL" */
+letter-spacing: 0.45px;
+}
+
+.label-line2 {
+    /* Text style for "FOR MEN" */
+color: #f16d7f;
+font-size: 30px;
+letter-spacing: 0.75px;
+    font-weight: 700;
+text-transform: uppercase;
+}
+
+.cart {
+    padding-right: 25px;
+}
+
+.semi-bold {
+    font-weight: 400;
+}
+
+.browse-button {
+    /* Style for "Rounded Re" */
+/* Style for "Browse" */
+color: #222222;
+font-size: 14px;
+font-weight: 300;
+/* Text style for "B, rowse" */
+letter-spacing: 0.35px;
+    padding: 13px;
+}
+
+.unlined-link {
+    text-decoration: none;
+}
+
+.search-form {
+    /* Style for "Rounded Re" */
+border-radius: 0 0 0 0;
+border: 1px solid #e6e6e6;
+background-color: #ffffff;
+height: 40px;
+    width: 317px;
+}
+
+.search-button {
+    /* Style for "Rounded Re" */
+background-color: #cdcdcc;
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    padding: 14px;
+    color: #222222;
+    /* Style for "Rounded Re" */
+border-radius: 0 3px 3px 0;
+border: 0px solid #e6e6e6;
+
 }
