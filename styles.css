@@ -1,8 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 .container {
-    width: 700px;
+    width: 1140px;
+    margin: 0 auto;
 }
 
 footer {
-    background: #123 ;
+    background: #123;
+}
+
+.header {
+    /* Style for "Background" */
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.button {
+    background-color: #f16d7f;
+    /* Style for "My Account" */
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    /* Text style for "M, y Accou" */
+    letter-spacing: 0.38px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    /* Style for "Home" */
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
