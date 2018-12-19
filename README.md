@@ -1,3 +1,3 @@
 # Lessons
-This repo only for study
-don't use it
+This repo only for study.
+Please, don't use it.
